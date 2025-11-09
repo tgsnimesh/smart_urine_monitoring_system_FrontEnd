@@ -1,0 +1,79 @@
+.alert-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.alert-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.alert-type {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.alert-status {
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.alert-status.unread {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.alert-status.read {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.alert-message {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.alert-details {
+  font-size: 0.9rem;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.alert-severity {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.alert-severity.green {
+  background-color: #28a745;
+}
+.alert-severity.yellow {
+  background-color: #ffc107;
+  color: #222;
+}
+.alert-severity.red {
+  background-color: #dc3545;
+}
